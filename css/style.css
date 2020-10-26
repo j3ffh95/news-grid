@@ -94,3 +94,16 @@ h6 {
   background: var(--light-color);
   color: var(--dark-color);
 }
+
+#main-nav .social {
+  justify-self: center;
+}
+
+#main-nav .social i {
+  color: #777;
+  margin-right: 0.5rem;
+}
+
+#main-nav .social i:hover {
+  color: var(--primary-color);
+}
