@@ -204,3 +204,16 @@ h6 {
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
+
+#home-articles .articles-container > *:first-child,
+#home-articles .articles-container > *:last-child {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  grid-column: 1 / span 2;
+  align-items: center;
+}
+
+#home-articles .articles-container > *:last-child {
+  grid-column: 2 / span 2;
+}
