@@ -133,6 +133,12 @@ h6 {
   padding: 3rem;
 }
 
+.list li {
+  padding: 0.5rem 0;
+  border-bottom: #555 dotted 1px;
+  width: 90%;
+}
+
 .btn-block {
   display: block;
   width: 100%;
@@ -281,6 +287,10 @@ h6 {
 
 #main-footer a {
   color: #fff;
+}
+
+#main-footer .list li a:hover {
+  color: var(--primary-color);
 }
 
 #main-footer .footer-container {
